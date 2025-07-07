@@ -1,0 +1,28 @@
+{
+  "name": "fitbuddy-backend",
+  "version": "1.0.0",
+  "description": "\"this is a dedicated backend for fitbuddy\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "script": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required for backend'",
+    "lint": "eslint ."
+  },
+  "author": "\"Tusharkanta Behera\"",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "openai": "^5.8.2",
+    "pg": "^8.16.3",
+    "twilio": "^5.7.2",
+    "validator": "^13.15.15"
+  }
+}
